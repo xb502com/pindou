@@ -1,0 +1,47 @@
+# Python caches / test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Node / frontend dependencies and build outputs
+node_modules/
+dist/
+build/
+.cache/
+.vite/
+
+# Deployment bundles / temporary packaged files
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+pindou-static.*
+pingdou-public.*
+
+# Local editor / OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local-only Codex / agent state
+.agents/
+.codex/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

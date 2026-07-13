@@ -1,0 +1,466 @@
+{
+  "palette_id": "p_beads_core_supplement_v1",
+  "name": "P 系列拼豆色板（核心+补充）",
+  "colors": [
+    {
+      "code": "P01",
+      "name": "白色 / White",
+      "name_cn": "白色",
+      "name_en": "White",
+      "hex": "#F1F1F1",
+      "rgb": "255,255,255",
+      "group": "core",
+      "sort_order": 1
+    },
+    {
+      "code": "P18",
+      "name": "黑色 / Black",
+      "name_cn": "黑色",
+      "name_en": "Black",
+      "hex": "#2E2F32",
+      "rgb": "46,47,50",
+      "group": "core",
+      "sort_order": 2
+    },
+    {
+      "code": "P03",
+      "name": "黄色 / Yellow",
+      "name_cn": "黄色",
+      "name_en": "Yellow",
+      "hex": "#ECD800",
+      "rgb": "236,216,0",
+      "group": "core",
+      "sort_order": 3
+    },
+    {
+      "code": "P04",
+      "name": "橙色 / Orange",
+      "name_cn": "橙色",
+      "name_en": "Orange",
+      "hex": "#ED6120",
+      "rgb": "237,97,32",
+      "group": "core",
+      "sort_order": 4
+    },
+    {
+      "code": "P05",
+      "name": "红色 / Red",
+      "name_cn": "红色",
+      "name_en": "Red",
+      "hex": "#F01820",
+      "rgb": "240,24,32",
+      "group": "core",
+      "sort_order": 5
+    },
+    {
+      "code": "P07",
+      "name": "紫色 / Purple",
+      "name_cn": "紫色",
+      "name_en": "Purple",
+      "hex": "#604089",
+      "rgb": "96,64,137",
+      "group": "core",
+      "sort_order": 6
+    },
+    {
+      "code": "P08",
+      "name": "深蓝色 / Dark Blue",
+      "name_cn": "深蓝色",
+      "name_en": "Dark Blue",
+      "hex": "#2B3F87",
+      "rgb": "43,63,135",
+      "group": "core",
+      "sort_order": 7
+    },
+    {
+      "code": "P10",
+      "name": "深绿色 / Dark Green",
+      "name_cn": "深绿色",
+      "name_en": "Dark Green",
+      "hex": "#1C753E",
+      "rgb": "28,117,62",
+      "group": "core",
+      "sort_order": 8
+    },
+    {
+      "code": "P12",
+      "name": "棕色 / Brown",
+      "name_cn": "棕色",
+      "name_en": "Brown",
+      "hex": "#513931",
+      "rgb": "81,57,49",
+      "group": "core",
+      "sort_order": 9
+    },
+    {
+      "code": "P17",
+      "name": "灰色 / Grey",
+      "name_cn": "灰色",
+      "name_en": "Grey",
+      "hex": "#8A8D91",
+      "rgb": "138,141,145",
+      "group": "core",
+      "sort_order": 10
+    },
+    {
+      "code": "P56",
+      "name": "奶油色 / Creme",
+      "name_cn": "奶油色",
+      "name_en": "Creme",
+      "hex": "#E0DEA9",
+      "rgb": "224,222,169",
+      "group": "core",
+      "sort_order": 11
+    },
+    {
+      "code": "P57",
+      "name": "浅棕色 / Light Brown",
+      "name_cn": "浅棕色",
+      "name_en": "Light Brown",
+      "hex": "#815D34",
+      "rgb": "129,93,52",
+      "group": "core",
+      "sort_order": 12
+    },
+    {
+      "code": "P79",
+      "name": "浅粉色 / Light Pink",
+      "name_cn": "浅粉色",
+      "name_en": "Light Pink",
+      "hex": "#F6B3DD",
+      "rgb": "246,179,221",
+      "group": "core",
+      "sort_order": 13
+    },
+    {
+      "code": "P80",
+      "name": "发光绿 / Glow Green",
+      "name_cn": "发光绿",
+      "name_en": "Glow Green",
+      "hex": "#BEC696",
+      "rgb": "190,198,150",
+      "group": "core",
+      "sort_order": 14
+    },
+    {
+      "code": "P81",
+      "name": "浅灰 / Light Gray",
+      "name_cn": "浅灰",
+      "name_en": "Light Gray",
+      "hex": "#777B81",
+      "rgb": "119,123,129",
+      "group": "core",
+      "sort_order": 15
+    },
+    {
+      "code": "P83",
+      "name": "粉色 / Pink",
+      "name_cn": "粉色",
+      "name_en": "Pink",
+      "hex": "#E44892",
+      "rgb": "228,72,146",
+      "group": "core",
+      "sort_order": 16
+    },
+    {
+      "code": "P85",
+      "name": "霓虹橙 / Neon Orange",
+      "name_cn": "霓虹橙",
+      "name_en": "Neon Orange",
+      "hex": "#FF7700",
+      "rgb": "255,119,0",
+      "group": "core",
+      "sort_order": 17
+    },
+    {
+      "code": "P90",
+      "name": "金色 / Gold",
+      "name_cn": "金色",
+      "name_en": "Gold",
+      "hex": "#BB7634",
+      "rgb": "187,118,52",
+      "group": "core",
+      "sort_order": 18
+    },
+    {
+      "code": "P91",
+      "name": "珍珠浅蓝 / Pearl Light Blue",
+      "name_cn": "珍珠浅蓝",
+      "name_en": "Pearl Light Blue",
+      "hex": "#7AAEA2",
+      "rgb": "122,174,162",
+      "group": "core",
+      "sort_order": 19
+    },
+    {
+      "code": "P92",
+      "name": "深灰 / Dark Grey",
+      "name_cn": "深灰",
+      "name_en": "Dark Grey",
+      "hex": "#4D5156",
+      "rgb": "77,81,86",
+      "group": "core",
+      "sort_order": 20
+    },
+    {
+      "code": "P97",
+      "name": "霓虹黄 / Neon Yellow",
+      "name_cn": "霓虹黄",
+      "name_en": "Neon Yellow",
+      "hex": "#DCE002",
+      "rgb": "220,224,2",
+      "group": "core",
+      "sort_order": 21
+    },
+    {
+      "code": "P103",
+      "name": "珍珠黄 / Pearl Yellow",
+      "name_cn": "珍珠黄",
+      "name_en": "Pearl Yellow",
+      "hex": "#CAC033",
+      "rgb": "202,192,51",
+      "group": "core",
+      "sort_order": 22
+    },
+    {
+      "code": "P104",
+      "name": "珍珠浅粉 / Pearl Light Pink",
+      "name_cn": "珍珠浅粉",
+      "name_en": "Pearl Light Pink",
+      "hex": "#D7A8A2",
+      "rgb": "215,168,162",
+      "group": "core",
+      "sort_order": 23
+    },
+    {
+      "code": "P105",
+      "name": "银色 / Silver",
+      "name_cn": "银色",
+      "name_en": "Silver",
+      "hex": "#777B81",
+      "rgb": "119,123,129",
+      "group": "core",
+      "sort_order": 24
+    },
+    {
+      "code": "P179",
+      "name": "霓虹绿 / Neon Green",
+      "name_cn": "霓虹绿",
+      "name_en": "Neon Green",
+      "hex": "#019E43",
+      "rgb": "1,158,67",
+      "group": "core",
+      "sort_order": 25
+    },
+    {
+      "code": "P02",
+      "name": "奶油色 / Creme",
+      "name_cn": "奶油色",
+      "name_en": "Creme",
+      "hex": "#E0DEA9",
+      "rgb": "224,222,169",
+      "group": "supplement",
+      "sort_order": 26
+    },
+    {
+      "code": "P20",
+      "name": "锈色 / Rust",
+      "name_cn": "锈色",
+      "name_en": "Rust",
+      "hex": "#8C372C",
+      "rgb": "140,55,44",
+      "group": "supplement",
+      "sort_order": 27
+    },
+    {
+      "code": "P21",
+      "name": "沙色 / Tan",
+      "name_cn": "沙色",
+      "name_en": "Tan",
+      "hex": "#BC9371",
+      "rgb": "188,147,113",
+      "group": "supplement",
+      "sort_order": 28
+    },
+    {
+      "code": "P35",
+      "name": "橙色 / Orange",
+      "name_cn": "橙色",
+      "name_en": "Orange",
+      "hex": "#ED6120",
+      "rgb": "237,97,32",
+      "group": "supplement",
+      "sort_order": 29
+    },
+    {
+      "code": "P38",
+      "name": "洋红色 / Magenta",
+      "name_cn": "洋红色",
+      "name_en": "Magenta",
+      "hex": "#A53061",
+      "rgb": "165,48,97",
+      "group": "supplement",
+      "sort_order": 30
+    },
+    {
+      "code": "P47",
+      "name": "淡黄色 / Pastel Yellow",
+      "name_cn": "淡黄色",
+      "name_en": "Pastel Yellow",
+      "hex": "#FEF875",
+      "rgb": "254,248,117",
+      "group": "supplement",
+      "sort_order": 31
+    },
+    {
+      "code": "P49",
+      "name": "深绿色 / Dark Green",
+      "name_cn": "深绿色",
+      "name_en": "Dark Green",
+      "hex": "#1C753E",
+      "rgb": "28,117,62",
+      "group": "supplement",
+      "sort_order": 32
+    },
+    {
+      "code": "P52",
+      "name": "牙膏色 / Toothpaste",
+      "name_cn": "牙膏色",
+      "name_en": "Toothpaste",
+      "hex": "#93C8D4",
+      "rgb": "147,200,212",
+      "group": "supplement",
+      "sort_order": 33
+    },
+    {
+      "code": "P53",
+      "name": "亮绿色 / Bright Green",
+      "name_cn": "亮绿色",
+      "name_en": "Bright Green",
+      "hex": "#4FAD42",
+      "rgb": "79,173,66",
+      "group": "supplement",
+      "sort_order": 34
+    },
+    {
+      "code": "P54",
+      "name": "深蓝色 / Dark Blue",
+      "name_cn": "深蓝色",
+      "name_en": "Dark Blue",
+      "hex": "#2B3F87",
+      "rgb": "43,63,135",
+      "group": "supplement",
+      "sort_order": 35
+    },
+    {
+      "code": "P58",
+      "name": "鹦鹉绿 / Parrot Green",
+      "name_cn": "鹦鹉绿",
+      "name_en": "Parrot Green",
+      "hex": "#067C81",
+      "rgb": "6,124,129",
+      "group": "supplement",
+      "sort_order": 36
+    },
+    {
+      "code": "P60",
+      "name": "淡薰衣草 / Pastel Lavender",
+      "name_cn": "淡薰衣草",
+      "name_en": "Pastel Lavender",
+      "hex": "#8A72C1",
+      "rgb": "138,114,193",
+      "group": "supplement",
+      "sort_order": 37
+    },
+    {
+      "code": "P61",
+      "name": "发光绿 / Glow Green",
+      "name_cn": "发光绿",
+      "name_en": "Glow Green",
+      "hex": "#BEC696",
+      "rgb": "190,198,150",
+      "group": "supplement",
+      "sort_order": 38
+    },
+    {
+      "code": "P62",
+      "name": "腮红 / Blush",
+      "name_cn": "腮红",
+      "name_en": "Blush",
+      "hex": "#FF8285",
+      "rgb": "255,130,133",
+      "group": "supplement",
+      "sort_order": 39
+    },
+    {
+      "code": "P63",
+      "name": "热珊瑚 / Hot Coral",
+      "name_cn": "热珊瑚",
+      "name_en": "Hot Coral",
+      "hex": "#FF3851",
+      "rgb": "255,56,81",
+      "group": "supplement",
+      "sort_order": 40
+    },
+    {
+      "code": "P70",
+      "name": "浅蓝色 / Light Blue",
+      "name_cn": "浅蓝色",
+      "name_en": "Light Blue",
+      "hex": "#3370C0",
+      "rgb": "51,112,192",
+      "group": "supplement",
+      "sort_order": 41
+    },
+    {
+      "code": "P75",
+      "name": "仙人掌果色 / Prickly Pear",
+      "name_cn": "仙人掌果色",
+      "name_en": "Prickly Pear",
+      "hex": "#BDDA01",
+      "rgb": "189,218,1",
+      "group": "supplement",
+      "sort_order": 42
+    },
+    {
+      "code": "P82",
+      "name": "青绿色 / Turquoise",
+      "name_cn": "青绿色",
+      "name_en": "Turquoise",
+      "hex": "#2B89C6",
+      "rgb": "43,137,198",
+      "group": "supplement",
+      "sort_order": 43
+    },
+    {
+      "code": "P88",
+      "name": "覆盆子色 / Raspberry",
+      "name_cn": "覆盆子色",
+      "name_en": "Raspberry",
+      "hex": "#A53061",
+      "rgb": "165,48,97",
+      "group": "supplement",
+      "sort_order": 44
+    },
+    {
+      "code": "P93",
+      "name": "长春花蓝 / Periwinkle Blue",
+      "name_cn": "长春花蓝",
+      "name_en": "Periwinkle Blue",
+      "hex": "#647CBE",
+      "rgb": "100,124,190",
+      "group": "supplement",
+      "sort_order": 45
+    },
+    {
+      "code": "P100",
+      "name": "黑色 / Black",
+      "name_cn": "黑色",
+      "name_en": "Black",
+      "hex": "#2E2F32",
+      "rgb": "46,47,50",
+      "group": "supplement",
+      "sort_order": 46
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pingdou 拼豆图生成器</title>
+  <meta name="description" content="纯前端、本地计算、支持矢量导出的拼豆图生成器" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2714%27 fill=%27%232563eb%27/%3E%3Ccircle cx=%2722%27 cy=%2722%27 r=%278%27 fill=%27white%27/%3E%3Ccircle cx=%2742%27 cy=%2722%27 r=%278%27 fill=%27%23facc15%27/%3E%3Ccircle cx=%2722%27 cy=%2742%27 r=%278%27 fill=%27%23ef4444%27/%3E%3Ccircle cx=%2742%27 cy=%2742%27 r=%278%27 fill=%27%2322c55e%27/%3E%3C/svg%3E" />
+  <style>
+    :root { color-scheme: light; --brand:#3b82f6; --bg:#f8fafc; --text:#0f172a; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background:var(--bg); color:var(--text); }
+    #wasm-loading { min-height:100vh; display:flex; align-items:center; justify-content:center; padding:32px; }
+    .loading-card { width:min(560px, 100%); background:white; border-radius:24px; padding:32px; box-shadow:0 24px 80px rgba(15,23,42,.12); text-align:center; }
+    .logo { font-size:36px; font-weight:900; letter-spacing:.02em; margin-bottom:8px; }
+    .subtitle { color:#475569; line-height:1.8; margin:0 0 24px; }
+    .progress { height:12px; background:#dbeafe; border-radius:999px; overflow:hidden; margin:24px 0 12px; }
+    #progress-bar { display:block; width:18%; height:100%; background:linear-gradient(90deg,#60a5fa,#2563eb,#7c3aed); border-radius:999px; animation: loading 1.8s ease-in-out infinite; }
+    .privacy { font-size:14px; color:#64748b; }
+    #stlite-app { min-height: 60vh; }
+    .ad-slot { min-height: 1px; }
+    @keyframes loading { 0% { transform:translateX(-120%); width:25%; } 50% { width:55%; } 100% { transform:translateX(420%); width:25%; } }
+    noscript { display:block; max-width:720px; margin:48px auto; padding:24px; background:#fff7ed; border:1px solid #fed7aa; border-radius:16px; }
+  </style>
+</head>
+<body>
+  <noscript>Pingdou 需要浏览器启用 JavaScript 才能在本地运行 WebAssembly 图像算法。</noscript>
+
+  <div id="wasm-loading" aria-live="polite">
+    <section class="loading-card">
+      <div class="logo">Pingdou</div>
+      <p class="subtitle">正在本地初始化图像算力中心<br />首次访问需要加载十几 MB 的本地图像算法资源。</p>
+      <div class="progress"><span id="progress-bar"></span></div>
+      <p id="loading-stage" class="privacy">您的图片与工程数据只在本地浏览器处理，绝不上传。</p>
+    </section>
+  </div>
+
+  <main id="stlite-app"></main>
+  <aside class="ad-slot ad-top" data-ad="top-banner"></aside>
+
+  <script async src="/assets/vendor/ads/ads-loader.js"></script>
+  <script type="module" src="/assets/stlite/bootstrap.js"></script>
+</body>
+</html>

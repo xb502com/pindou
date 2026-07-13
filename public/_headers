@@ -1,0 +1,17 @@
+/index.html
+  Cache-Control: no-cache
+
+/assets/pyodide/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/wheels/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/stlite/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/app/*
+  Cache-Control: public, max-age=3600
+
+/assets/palettes/*
+  Cache-Control: public, max-age=86400
